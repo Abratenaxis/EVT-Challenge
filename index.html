@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressive Webpage</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap" rel="stylesheet">
+  <style>
+    /* Color Variables */
+    :root {
+      --prussian-blue: #0b3954ff;
+      --cadet-gray: #7d98a1ff;
+      --engineering-orange: #d00000ff;
+      --hunter-green: #33673bff;
+      --cream: #fff5e1ff; 
+    }
+
+    body {
+      font-family: 'Nunito Sans', sans-serif;
+      background-image: url('just-another-skull-4k-wallpaper-3440x1440.jpg'); /* Replace with your image path */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: rgba(11, 57, 84, 0.7); /* Use rgba for transparency */
+      padding: 20px; /* Increase padding for better visibility */
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: var(--engineering-orange);
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: var(--cream);
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+
+    .icon {
+      color: var(--hunter-green);
+      font-size: 3em;
+    }
+
+    .linkedin-button, .github-button {
+      background-size: contain;
+      width: 50px; 
+      height: 50px; 
+      cursor: pointer;
+      margin-top: 10px; 
+    }
+
+    .linkedin-button {
+      background-image: url('linkedin.png'); 
+      order: 1; /* Place LinkedIn button first in the column */
+    }
+
+    .github-button {
+      background-image: url('github.png'); 
+      order: 2; /* Place GitHub button second in the column */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="icon">✔️</div>
+    <h1>Success</h1>
+    <p>Congratulations! Your webpage is up and running securely. Thank you for taking the time to review my submission!</p>
+  </div>
+  <a href="https://www.linkedin.com/in/jbonilla365" target="_blank" class="linkedin-button"></a>
+  <a href="https://github.com/Abratenaxis/EVT-Challenge" target="_blank" class="github-button"></a>
+</body>
+
+</html>
