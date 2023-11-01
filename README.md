@@ -8,12 +8,19 @@ I had never used Nginx before this, but it was fun to figure out how to set up t
 
 Technologies used:
  > Ubuntu 22.04
+
  > WSL2
+
  > IDE (I used VSCode, probably my favorite, though I haven't tried many)
+
  > OpenSSL v3.1.3
+
  > Docker Desktop
+
  > Docker CLI
+
  > GitHub Desktop
+
  > Git Bash
 
 >Getting Started:
