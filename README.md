@@ -68,4 +68,4 @@ And there you go! You've pulled an image from Docker Hub and hosted a really coo
 B)
 Nice!
 
-You can navigate to ``` [the branch containing my Docker project files](https://github.com/Abratenaxis/EVT-Challenge/tree/master)``` to see the directory containing the Docker project and all related project files.
+You can navigate to [the branch containing my Docker project files](https://github.com/Abratenaxis/EVT-Challenge/tree/master) to see the directory containing the Docker project and all related project files.
