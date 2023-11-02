@@ -1,6 +1,6 @@
 # EVT-Challenge
 
->Introduction:
+>**Introduction:**
 
 In this Repo (master branch) is the working directory for the docker image I'm using to host an Nginx webserver to serve the html page provided.
 I decided to use Docker to containerize an Nginx webserver image. I started by copying my directory to it when creating my own image.
@@ -23,7 +23,7 @@ Technologies used:
 
  > Git Bash
 
->Getting Started:
+>**Getting Started:**
 
 For Windows systems, you'll need to install WSL2 Windows Subsystem for Linux which is available from the Microsoft Store. 
 Once WSL2 is installed open PowerShell or Windows Command Prompt in ___adminstrator mode___ and run:
@@ -47,4 +47,24 @@ You can also run the following command:
 docker pull abraxis10/nginx-evt-webserver-challange
 ```
 This will pull the Docker image to your local machine. 
+
+>**Usage:**
+
+Once you have the docker image, run a new new container.
+
+In the Optional settings give the container a new name, set the first host port to 443 and the second host port to 80 and run it.
+
+Your new containerized image will be hosting an Nginx webserver.
+
+Visit 
+```
+http://localhost:80
+```
+or
+```
+https://localhost:443
+```
+And there you go! You've pulled an image from Docker Hub and hosted a really cool website! 
+B)
+Nice!
 
