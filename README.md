@@ -1,6 +1,6 @@
 # EVT-Challenge
 
->**Introduction:**
+>**INTRODUCTION:**
 
 In this Repo (master branch) is the working directory for the docker image I'm using to host an Nginx webserver to serve the html page provided.
 I decided to use Docker to containerize an Nginx webserver image. I started by copying my directory to it when creating my own image.
@@ -48,7 +48,7 @@ docker pull abraxis10/nginx-evt-webserver-challange
 ```
 This will pull the Docker image to your local machine. 
 
->**Usage:**
+>**USAGE:**
 
 Once you have the docker image, run a new new container.
 
