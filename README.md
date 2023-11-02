@@ -1,5 +1,6 @@
 # EVT-Challenge
 
+
 >**INTRODUCTION:**
 
 In this Repo (master branch) is the working directory for the docker image I'm using to host an Nginx webserver to serve the html page provided.
@@ -48,6 +49,8 @@ docker pull abraxis10/nginx-evt-webserver-challange
 ```
 This will pull the Docker image to your local machine. 
 
+
+
 >**USAGE:**
 
 Once you have the docker image, run a new new container.
@@ -64,8 +67,18 @@ or
 ```
 https://localhost:443
 ```
-And there you go! You've pulled an image from Docker Hub and hosted a really cool website! 
-B)
+And there you go! You've pulled an image from Docker Hub and hosted a really cool website! B)
 Nice!
 
 You can navigate to [the branch containing my Docker project files](https://github.com/Abratenaxis/EVT-Challenge/tree/master) to see the directory containing the Docker project and all related project files.
+
+
+>**CONSIDERATIONS:**
+
+I used Docker because I knew it was something I wanted to familiarize myself with although I felt so lost when I started my research. I figured out that you could just use a base Nginx docker image and copy your files to it in order to run a local container that will host my page. It was perfect for what I needed. 
+
+I had to install WSL and subsequently, Ubuntu to run Docker Desktop.
+
+I used OpenSSL because it would suit my needs for a self-signed certificate that I could generate on my Windows system.
+
+I use VSCode because of its ease of use and great array of functionality.
