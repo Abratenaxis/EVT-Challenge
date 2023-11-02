@@ -53,7 +53,7 @@ This will pull the Docker image to your local machine.
 
 >**USAGE:**
 
-Once you have the docker image, run a new new container.
+Once you have the docker image, run a new container from the image pulled using Docker Desktop.
 
 In the Optional settings give the container a new name, set the first host port to 443 and the second host port to 80 and run it.
 
